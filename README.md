@@ -5,6 +5,8 @@ pgClusterMonitor is a service that controls a cluster of PostgreSQL DB with WAL 
 - Directs replication of all standby DB nodes to a single master DB node.
 - Controls synchronous_standby_names attribute of master DB node depends on standby nodes availability.
 
+![](https://github.com/treshnikov/pgClusterMonitor/blob/master/img/screen.PNG)
+
 # Requirements
 - pgClusterMonitor supports PostgreSQL version 12.
 - Python 3.6.
