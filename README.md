@@ -12,7 +12,7 @@ pgClusterMonitor is a service that controls a cluster of PostgreSQL DB with WAL 
 
 # How to use
 - It is supposed that an instance of pgClusterMonitor should be deployed on each DB server. The following steps should be performed on each DB server.
-- Install PostgreSQL 12 on each server in the cluster and set up WAL streaming replication(see the chapter below). You can also use script for deploying PostgreSQL DB cluster from the [docker_postgresql_wal_replication](https://github.com/treshnikov/docker_postgresql_wal_replication) repository.
+- Install PostgreSQL 12 on each server in the cluster and set up WAL streaming replication. You can also use script for deploying PostgreSQL DB cluster from the [docker_postgresql_wal_replication](https://github.com/treshnikov/docker_postgresql_wal_replication) repository. The default configuration in `config.ini` is aimed at the Docker container `p1` from mentioned repository.
 - Install Python version 3.6 or higher.
 - Run the following command to install packages `pip install flake8 psycopg2 urllib3 coloredlogs pywin32 servicemanager`.
 - Define settings in the `config.ini` file (see the chapter below).  
